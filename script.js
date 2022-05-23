@@ -69,6 +69,7 @@ function createBoard() {
   for (let i = 0; i < 10; i++){
    const card = document.createElement('img')
    card.setAttribute('src', 'images/blank.jpg')
+   card.setAttribute('data-id', i)
    console.log(card , i)
   }
 }
