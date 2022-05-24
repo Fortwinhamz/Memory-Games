@@ -70,7 +70,7 @@ function createBoard() {
    const card = document.createElement('img')
    card.setAttribute('src', 'images/blank.jpg')
    card.setAttribute('data-id', i)
-   console.log(card , i)
+   gridDisplay.appendChild(card)
   }
 }
 
